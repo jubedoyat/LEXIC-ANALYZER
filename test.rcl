@@ -1,0 +1,25 @@
+desdeU "moduloEstadistico"
+
+typ mtix DatosMatriz
+typ colect RachaSecuencia
+
+procers process_model_tways(alpha, tau, beta, mtix[beta, tau], colect[x]) {{
+  stre resultado = colectavgll(DatosMatriz)
+  comeback resultado
+}}
+
+stre ejemplo = colect("++--++-")
+
+sikas #stre(ejemplo) > 3 {{
+  stre resultado = ejemplo ^^^ 2
+  comeback resultado
+}} to_pasum_stre {{
+  jump_stre
+}}
+
+--/ Esto es un comentario de linea
+
+-//
+Comentario
+multilinea
+/-
