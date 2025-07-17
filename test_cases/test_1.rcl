@@ -1,0 +1,12 @@
+stre colect r1 = colect("++--");
+stre colect r2 = colect("+++");
+
+sikas (#stre(r1) > 3) {{
+  r1 = r1 &join r2;
+}}
+
+while_stre (#stre(r1) < 10) {{
+  r1 = r1 ^^^ 1;
+}}
+
+comeback;

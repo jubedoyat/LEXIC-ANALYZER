@@ -1,0 +1,10 @@
+stre mtix datosBloques = mtix;
+stre colect secuenciaRachas = colect("AABBBBAAC");
+
+multicotomizar(datosBloques, secuenciaRachas);
+contarRachas(secuenciaRachas);
+colectavgB(datosBloques);
+colectaddT(datosBloques);
+colectavgM(datosBloques);
+
+comeback;

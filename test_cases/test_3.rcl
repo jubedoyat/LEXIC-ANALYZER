@@ -1,0 +1,17 @@
+typ colect RachaBinaria;
+
+stre colect señal = colect("+-++--++");
+
+procers procesarSeñal(señal);
+
+por_stre_in señal {{
+  stre cadena bit = "Detectado";
+  comeback;
+}}
+
+again_stre {{
+  contarRachas(señal);
+  pasum_stre;
+}}
+
+jump_stre;
